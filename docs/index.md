@@ -18,17 +18,3 @@ With `ansitoolkit`, our goal is to provide a developer-friendly interface that s
 pip install ansitoolkit
 ---> 100%
 ```
-
-```python
-class RGBColors:
-    @staticmethod
-    def rgb_foreground(red: int, green: int, blue: int) -> str:
-        """Generate RGB foreground color sequence."""
-        try:
-            if not (0 <= red <= 255 and 0 <= green <= 255 and 0 <= blue <= 255):
-                raise ValueError("RGB values must be from 0 to 255.")
-            return ansi_rgb_color_sequence(AnsiRgbColorSelector.FOREGROUND, red, green, blue)
-        except ValueError as e:
-            print(f"ValueError: {e}")
-            raise
-```
