@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "ansitoolkit"
-version = "0.1.9"
+version = "0.1.10"
 description = "ansitoolkit makes terminal magic easy — your go-to toolkit for hassle-free ANSI escape codes and colorful, dynamic terminal output!"
 authors = ["hyperoot <hyperoot.tech@proton.me>"]
 readme = "README.md"
