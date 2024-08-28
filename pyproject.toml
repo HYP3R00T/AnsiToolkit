@@ -4,6 +4,10 @@ version = "0.1.8"
 description = "ansitoolkit makes terminal magic easy — your go-to toolkit for hassle-free ANSI escape codes and colorful, dynamic terminal output!"
 authors = ["hyperoot <hyperoot.tech@proton.me>"]
 readme = "README.md"
+homepage = "https://ansitoolkit.hyperoot.dev/"
+repository = "https://github.com/HYP3R00T/AnsiToolkit"
+documentation = "https://ansitoolkit.hyperoot.dev/"
+keywords = ["ansi", "cli"]
 
 [tool.poetry.dependencies]
 python = "^3.12"
