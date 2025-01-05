@@ -3,6 +3,7 @@ from .constants import (
     AnsiColor,
     AnsiColorSelector,
     AnsiCursorMovement,
+    AnsiCursorShape,
     AnsiDeviceStatus,
     AnsiEffect,
     AnsiEffectSelector,
@@ -118,3 +119,11 @@ def ansi_keyboard_and_input_mode_sequence(
     """Generate ANSI keyboard and input mode sequence, e.g. "\\u1b[?25h" for enabling cursor visibility."""
     csi = control_sequence_inducer(ascii_escape_code)
     return f"{csi}{mode.value}"
+
+def ansi_cursor_shape_sequence(
+    shape: AnsiCursorShape,
+    ascii_escape_code: AsciiEscapeCode = AsciiEscapeCode.OCTAL,
+) -> str:
+    """Generate an ANSI sequence for setting the cursor shape, e.g. "\\u1b[1 q" for a blinking block cursor."""
+    csi = control_sequence_inducer(ascii_escape_code)
+    return f"{csi}{shape}"

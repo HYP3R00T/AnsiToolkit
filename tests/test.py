@@ -1,6 +1,7 @@
 from ansitoolkit import (
     Colors,
     CursorMovement,
+    CursorShape,
     DeviceStatus,
     Effects,
     GraphicsAndCharacterSets,
@@ -127,3 +128,11 @@ def test_keyboard_and_input_modes():
     assert KeyboardAndInputModes.NORMAL_KEYPAD_MODE == "\033[?1l"
     assert KeyboardAndInputModes.ENABLE_CURSOR_VISIBILITY == "\033[?25h"
     assert KeyboardAndInputModes.DISABLE_CURSOR_VISIBILITY == "\033[?25l"
+
+def test_cursor_shape():
+    assert CursorShape.BLINKING_BLOCK == "\033[1 q"
+    assert CursorShape.STEADY_BLOCK == "\033[2 q"
+    assert CursorShape.BLINKING_UNDERLINE == "\033[3 q"
+    assert CursorShape.STEADY_UNDERLINE == "\033[4 q"
+    assert CursorShape.BLINKING_BAR == "\033[5 q"
+    assert CursorShape.STEADY_BAR == "\033[6 q"

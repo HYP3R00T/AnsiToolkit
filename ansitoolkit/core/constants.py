@@ -208,3 +208,17 @@ class AnsiKeyboardAndInputModes(Enum):
 
     def __str__(self) -> str:
         return self.value
+
+@unique
+class AnsiCursorShape(Enum):
+    """ANSI cursor shape codes."""
+
+    BLINKING_BLOCK = "1 q"
+    STEADY_BLOCK = "2 q"
+    BLINKING_UNDERLINE = "3 q"
+    STEADY_UNDERLINE = "4 q"
+    BLINKING_BAR = "5 q"
+    STEADY_BAR = "6 q"
+
+    def __str__(self) -> str:
+        return self.value

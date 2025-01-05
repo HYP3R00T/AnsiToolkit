@@ -1,5 +1,6 @@
 from ansitoolkit.colors import Ansi256Colors, Colors, HexColors, HSLColors, RGBColors
 from ansitoolkit.cursorMovement import CursorMovement
+from ansitoolkit.cursorShape import CursorShape
 from ansitoolkit.deviceStatus import DeviceStatus
 from ansitoolkit.effects import Effects
 from ansitoolkit.graphicsAndCharacterSets import GraphicsAndCharacterSets
@@ -14,6 +15,7 @@ __all__ = [
     "HSLColors",
     "RGBColors",
     "CursorMovement",
+    "CursorShape",
     "DeviceStatus",
     "Effects",
     "GraphicsAndCharacterSets",
