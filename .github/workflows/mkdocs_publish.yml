@@ -29,7 +29,6 @@ jobs:
 
       - name: Build and deploy
         run: |
-          rm -r .cache
           poetry run mkdocs build --verbose
           poetry run mkdocs gh-deploy --verbose --force
         env:
