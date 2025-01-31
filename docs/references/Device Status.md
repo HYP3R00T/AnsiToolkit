@@ -1,5 +1,6 @@
 ---
 title: Device Status
+description: AnsiToolkit provides ANSI escape codes to query terminal status, cursor position, and device attributes.
 ---
 # DeviceStatus
 

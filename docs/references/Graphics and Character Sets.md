@@ -1,5 +1,6 @@
 ---
 title: Graphics and CharacterSets
+description: AnsiToolkit provides ANSI escape codes for graphics modes, character sets, and text wrapping control.
 ---
 # GraphicsAndCharacterSets
 

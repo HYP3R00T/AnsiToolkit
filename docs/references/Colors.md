@@ -1,5 +1,6 @@
 ---
 title: Color
+description: AnsiToolkit provides ANSI escape codes for colors using 8-bit, 256-color, RGB, HSL, and Hex formats.
 ---
 
 # Color

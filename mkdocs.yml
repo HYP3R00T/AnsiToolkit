@@ -32,6 +32,8 @@ theme:
     # - search.suggest
     # - search.highlight
     - search.share
+    - content.action.edit
+    - content.action.view
 plugins:
   - search
   - roamlinks
@@ -42,6 +44,10 @@ plugins:
       prompt_literal_start:
         - ">"
   - tags
+  - social:
+      cards_layout_options:
+        background_color: "#1e1e2e"
+        color: "#cdd6f4"
 markdown_extensions:
   - footnotes
   - nl2br

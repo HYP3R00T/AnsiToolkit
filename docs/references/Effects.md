@@ -1,5 +1,6 @@
 ---
 title: Effects
+description: AnsiToolkit provides ANSI escape codes for text effects like bold, italic, underline, blink, and more.
 ---
 # Effects
 

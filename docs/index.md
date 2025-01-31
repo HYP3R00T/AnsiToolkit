@@ -1,5 +1,6 @@
 ---
 title: Home
+description: AnsiToolkit is a Python package that simplifies ANSI escape codes for colors, formatting, and cursor control in terminal applications. It provides a modular, user-friendly interface, making terminal styling more intuitive and error-free.
 ---
 
 <h1 align="center">AnsiToolkit</h1>

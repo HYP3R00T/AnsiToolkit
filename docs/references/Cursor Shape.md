@@ -1,5 +1,6 @@
 ---
 title: Cursor Shape
+description: AnsiToolkit provides ANSI escape codes to control cursor shape, blinking, and behavior in terminal applications.
 ---
 # CursorShape
 

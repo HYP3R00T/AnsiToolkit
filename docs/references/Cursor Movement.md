@@ -1,5 +1,6 @@
 ---
 title: Cursor Movement
+description: AnsiToolkit provides ANSI escape codes for precise cursor movement, positioning, and control in terminals.
 ---
 # CursorMovement
 

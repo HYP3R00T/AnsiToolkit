@@ -1,5 +1,6 @@
 ---
 title: Scrolling Region
+description: AnsiToolkit enables defining and resetting scrolling regions within the terminal for dynamic text displays.
 ---
 # ScrollingRegion
 

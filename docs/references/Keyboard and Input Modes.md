@@ -1,5 +1,6 @@
 ---
 title: Keyboard and Input Modes
+description: AnsiToolkit controls keyboard modes, keypad behavior, and cursor visibility in the terminal.
 ---
 # KeyboardAndInputModes
 

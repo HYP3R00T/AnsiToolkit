@@ -1,5 +1,6 @@
 ---
 title: Screen Control
+description: AnsiToolkit provides ANSI escape codes for managing screen visibility, clearing content, and switching screen modes.
 ---
 # ScreenControl
 

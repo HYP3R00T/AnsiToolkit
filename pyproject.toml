@@ -11,6 +11,8 @@ keywords = ["ansi", "cli"]
 
 [tool.poetry.dependencies]
 python = "^3.12"
+pillow = "^11.1.0"
+cairosvg = "^2.7.1"
 
 [tool.poetry.group.dev.dependencies]
 ruff = "^0.6.2"
